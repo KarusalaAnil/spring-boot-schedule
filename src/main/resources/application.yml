@@ -1,0 +1,11 @@
+server:
+  port: 8816
+
+spring:
+  application:
+    name: scheduler
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: hr_module
